@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Wine</title>
+    <link rel="stylesheet" href="css/style-file.css">
+  </head>
+
+
+    <div class="header" id="myHeader">
+      <nav>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="ourteam.html">Our Team</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+      </nav>
+    </div>
+
+    <!-- MAIN -->
+    <main>
+      <div class="content">
+        <div class="slider">
+          <div><h1 class="title">E-Wine, The E-Alsatian vineyard</h1></div>
+          <div class="description">
+              <p>E-Wine is a company based in Alsace which offers you the best white wines as well as its online services.
+              Alsatian vineyard expert for more than 5 years. Our sommeliers have acquired solid experience in management and advice in order to offer you the best white wines for your clients and your events.</p>
+          </div>
+       </div>
+      </div>
+      
+
+     <!-- IMAGES -->
+
+        <div>
+          <h2 class="title2">Our Gallery</h2>
+        </div>
+
+        <div class="compobloc1">
+
+          <div class="bloc">
+          <img src="img/bloc1.jpg" alt="cave" style="width:100%;">
+          <div class="overlay">
+            <div class="text">Our cave</div>
+          </div>
+          </div>
+
+          <div class="bloc">
+            <div class="overlay">
+              <div class="text">Our sale</div>
+            </div>
+          <img src="img/bloc2.jpg" alt="sale" style="width:100%;">
+          </div>
+
+        </div>
+
+        <div class="compobloc2">
+
+          <div class="bloc">
+            <div class="overlay">
+              <div class="text">Our sommelier</div>
+            </div>
+          <img src="img/bloc3.jpg" alt="sommelier" style="width:100%;">
+          </div>
+
+          <div class="bloc">
+            <div class="overlay">
+              <div class="text">Our creation</div>
+            </div>
+          <img src="img/bloc4.jpg" alt="creation" style="width:100%;">
+          </div>
+
+        </div>
+    
+    </main>
+
+ <script>
+
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myHeader");
+
+    var sticky = header.offsetTop;
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+
+
+  <!-- FOOTER -->
+
+<footer>
+  
+
+  <div class="contact">
+
+    <div class="contact1">
+      <i class="fas fa-map-marker-alt" style="color:white"></i>
+      <div class="adresse">
+      <p>15, allée des vins blancs - 67200 STRASBOURG</p>
+      </div>
+    </div>
+
+    <div class="contact2">
+      <i class="fas fa-envelope" style="color:white"></i>
+      <div class="mail">
+      <p>e-wine@contact.com</p>
+      </div>
+    </div>
+
+  </div>
+  
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84484.10413662349!2d7.692054796446877!3d48.569092311654465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c84ad320ec67%3A0x6d74978f33eeb6ba!2sMus%C3%A9e%20d&#39;Art%20Moderne%20et%20Contemporain%20de%20Strasbourg!5e0!3m2!1sfr!2sfr!4v1618249818677!5m2!1sfr!2sfr" 
+    width="1500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+  <div class="copyright">
+    <p class="copy">All rights reserved. Designed by Naziha BOUZAIANE</p>
+  </div>
+
+</footer>
+
+</html>
